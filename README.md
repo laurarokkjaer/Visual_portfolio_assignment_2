@@ -34,19 +34,21 @@ Another scripts should be called nn_classifier.py and should do the following:
 
 ### The goal of the assignment 
 The goal of this assignment was to demonstrate general knowledge abput .py scripts with simple classifiers that can act as benchmarks for future reasearch. 
+The results are two report belogning to respectively the logistic_regression script and the nn_classifier script (see output folder)
 
 ## Methods
-To solve this assignment i chose to work with ```opencv``` in order to both calculate the histograms as well as for the general image processing (using the ```calcHist```, ```imread```, ```normalize``` and ```compareHist```). Futhermore i used the ```jimshow``` and ```jimshow_channel``` from the ```utils```-folder. 
+To solve this assignment i have worked with ```opencv``` for the general image processing. Furthermore i have used ```neural networks``` with ```numpy``` as well as ```tensorflow```, which is where the ```CIFAR_10```data is from. At last, the script is also build around multiple functions/methods and machine learning tools from ```sklearn``` shuch as ```LabelBinarizer```, ```train_test_split```, ```classification_report```and ```accuracy_score```.
 
 ## Usage (reproducing results)
 For this .py script the following should be written in the command line:
 - change directory to the folder /src 
-- write the command: python image_search.py
-- when processing there will be a message introducing the results, which is the distance score and filepath for the top three similar images
-
-The target image, as well as the most similar images can be seen in the output folder 
+- write the command: python logistic_regression.py or nn_classifier.py
+- when processing there will be a message introducing the results, which is the two different classification reports
+- The two reports is then shown in the output folder
 
 
 ## Discussion of results
 something about:
 - what a user defined input could have done to the reproducability of the script 
+- the numbers on the report
+- the difference between using a simple logistic regression classifier and a neural netowork class woth numpy 
