@@ -10,14 +10,14 @@ This repository contains the code and descriptions from the second assigned proj
 | ----------- | ----------- |
 | ```in``` | Contains the input data (will be empty) |
 | ```out``` | Contains the results (outputs like plots or reports)  |
-| ```src``` | Contains code for assignment 1 |
-| ```utils``` | Contains helping functions that may have been used throughoyt the code |
+| ```src``` | Contains code for assignment 2 |
+| ```utils``` | Contains utility functions written by [Ross](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html), and which have been used in the assignments |
 
 Also containing a ```MITLICENSE``` for guidelines of how to reproduce and use the data in this repository, as well as a ```.txt``` reqirements-file, where the required installments will be listed.
 
 
 ## Assignment description
-The official description of the assignment from github/brightspace:
+The official description of the assignment from github/brightspace (https://github.com/CDS-AU-DK/cds-visual/blob/main/assignments/assignment2.md):
 
 For this assignment, you will take the classifier pipelines we covered in lecture 7 and turn them into two separate .py scripts. Your code should do the following:
 
