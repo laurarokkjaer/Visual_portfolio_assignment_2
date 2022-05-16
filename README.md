@@ -17,7 +17,7 @@ Also containing a ```MITLICENSE``` for guidelines of how to reproduce and use th
 
 
 ## Assignment description
-The official description of the assignment from github/brightspace (https://github.com/CDS-AU-DK/cds-visual/blob/main/assignments/assignment2.md):
+The official description of the assignment from github/brightspace: [assignment description](https://github.com/CDS-AU-DK/cds-visual/blob/main/assignments/assignment2.md).
 
 For this assignment, you will take the classifier pipelines we covered in lecture 7 and turn them into two separate .py scripts. Your code should do the following:
 
@@ -36,15 +36,21 @@ Another scripts should be called nn_classifier.py and should do the following:
 The goal of this assignment was to demonstrate general knowledge abput .py scripts with simple classifiers that can act as benchmarks for future reasearch. 
 The results are two report belogning to respectively the logistic_regression script and the nn_classifier script (see output folder)
 
+
+### Data source
+The data used in this assignment is the CIFAR-10 dataset from [the cifar-10 dataset website](https://www.cs.toronto.edu/~kriz/cifar.html). 
+
+Reference: [Learning Multiple Layers of Features from Tiny Images](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf), Alex Krizhevsky, 2009.
+
 ## Methods
 To solve this assignment i have worked with ```opencv``` for the general image processing. Furthermore i have used ```neural networks``` with ```numpy``` as well as ```tensorflow```, which is where the ```CIFAR_10```data is from. At last, the script is also build around multiple functions/methods and machine learning tools from ```sklearn``` shuch as ```LabelBinarizer```, ```train_test_split```, ```classification_report```and ```accuracy_score```.
 
 ## Usage (reproducing results)
 For this .py script the following should be written in the command line:
 - change directory to the folder /src 
-- write the command: python logistic_regression.py or nn_classifier.py
-- when processing there will be a message introducing the results, which is the two different classification reports
-- The two reports is then shown in the output folder
+- write the command: python logistic_regression.py or nn_classifier.py 
+- when processing there will be a message introducing the results, which will be one of the two different classification reports, depending on which script you choose to run
+- the reports is then saved to the output folder
 
 
 ## Discussion of results
