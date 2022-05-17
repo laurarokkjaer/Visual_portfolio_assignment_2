@@ -43,7 +43,7 @@ The data used in this assignment is the CIFAR-10 dataset from [the cifar-10 data
 Reference: [Learning Multiple Layers of Features from Tiny Images](https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf), Alex Krizhevsky, 2009.
 
 ## Methods
-To solve this assignment i have worked with ```opencv``` for the general image processing. Furthermore i have used ```neural networks``` with ```numpy``` as well as ```tensorflow```, which is where the ```CIFAR_10```data is from. At last, the script is also build around multiple functions/methods and machine learning tools from ```sklearn``` shuch as ```LabelBinarizer```, ```train_test_split```, ```classification_report```and ```accuracy_score```.
+To solve this assignment i have worked with ```opencv``` for the general image processing. Furthermore, i have used ```neural networks``` with ```numpy``` as well as ```tensorflow```, which is where the ```CIFAR_10```data is from. At last, the script is also build around multiple functions/methods and machine learning tools from ```sklearn``` shuch as ```LabelBinarizer```, ```train_test_split```, ```classification_report```and ```accuracy_score```.
 
 ## Usage (reproducing results)
 These are the steps you will need to follow in order to get the script running and working:
@@ -61,7 +61,8 @@ These are the steps you will need to follow in order to get the script running a
 
 
 ## Discussion of results
+The first thing to get into in terms of the results of this assignment is the different classification reports 
 something about:
-- what a user defined input could have done to the reproducability of the script 
 - the numbers on the report
-- the difference between using a simple logistic regression classifier and a neural netowork class woth numpy 
+- the difference between using a simple logistic regression classifier and a neural netowork classifier with numpy 
+- the difference the two datasets
