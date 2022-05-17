@@ -46,11 +46,17 @@ Reference: [Learning Multiple Layers of Features from Tiny Images](https://www.c
 To solve this assignment i have worked with ```opencv``` for the general image processing. Furthermore i have used ```neural networks``` with ```numpy``` as well as ```tensorflow```, which is where the ```CIFAR_10```data is from. At last, the script is also build around multiple functions/methods and machine learning tools from ```sklearn``` shuch as ```LabelBinarizer```, ```train_test_split```, ```classification_report```and ```accuracy_score```.
 
 ## Usage (reproducing results)
-For this .py script the following should be written in the command line:
-- change directory to the folder /src 
-- write the command: python logistic_regression.py or nn_classifier.py 
-- when processing there will be a message introducing the results, which will be one of the two different classification reports, depending on which script you choose to run
-- the reports is then saved to the output folder
+These are the steps you will need to follow in order to get the script running and working:
+- load the given data into ```input```
+- change your current working directory to the folder before src in order to get access to the input and utils folder as well 
+- the following shpuld be written in the command line:
+
+      - cd src (changing the directory to the src folder in order to run the script)
+      
+      - python logistic_regression.py/nn_classifier.py (calling the function within the script)
+      
+- when processed results there will be a messagge saying that the script has succeeded and the outputs can be seen in the output folder 
+
 
 
 ## Discussion of results
