@@ -60,11 +60,6 @@ These are the steps you will need to follow in order to get the script running a
 - when processed results there will be a messagge saying that the script has succeeded and the outputs can be seen in the output folder 
 
 
-
 ## Discussion of results
-The first thing to get into in terms of the results of this assignment is the different classification reports 
-something about:
-Logistic_regression: An accuracy of 32 %
-Neural Network Classifier: An accuracy of 35%
-- the difference between using a simple logistic regression classifier and a neural netowork classifier with numpy 
-- the difference the two datasets
+The first thing to get into in terms of the results of this assignment is the different classification reports respectively the logistic regression vs. neural network classifier. The neural network classifier is more flexible than the logistic regression which might be the answer to why the accuracy is higher with the nn_classifier.py script. But since the difference between 32% and 35% is not that big, I would argue that the logistic regression works just as fine.
+For furter development it would have been interesting to have a look at the resluts using the MNIST_784 dataset instead of CIFAR10. The solution to that would have been to create just one script which takes an argument in which the user can choose to run the script with one of the two datasets. 
