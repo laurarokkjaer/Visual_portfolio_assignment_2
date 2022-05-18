@@ -15,7 +15,7 @@ from tensorflow.keras.datasets import cifar10
 from utils.neuralnetwork import NeuralNetwork 
 
 # Defining a function, giving it an appropiate name, with no arguments 
-def main():
+def nn_classifier():
     # Load data
     (X_train, y_train), (X_test, y_test) = cifar10.load_data()
     labels = ["airplane",
@@ -74,8 +74,6 @@ def main():
     # Using .write to save the report in a .txt file in my outputfolder
     with open("output/nn_report.txt", 'a') as my_txt_file:
         my_txt_file.write(report)
-  
-    
-# python program to execute
-if __name__ == "__main__":
-    main()
+
+        
+nn_classifier()
