@@ -1,6 +1,6 @@
 # path tools
 import sys,os
-sys.path.append(os.path.join("..", "utils"))
+sys.path.append(os.path.join("utils"))
 # image processing
 import cv2
 
@@ -62,7 +62,7 @@ def logistic_regression():
     #print(report)
     
     # Using .write to save the report in a .txt file in my outputfolder
-    with open('../output/lr_report.txt', 'w') as my_txt_file:
+    with open('output/lr_report.txt', 'w') as my_txt_file:
         my_txt_file.write(report)
     
     print("Script succeeded: The following shows the classification report, which is also saved to the output-folder")
