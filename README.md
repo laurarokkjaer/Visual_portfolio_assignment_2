@@ -64,6 +64,7 @@ These are the steps you will need to follow in order to get the script running a
 ## Discussion of results
 The first thing to get into in terms of the results of this assignment is the different classification reports 
 something about:
-- the numbers on the report
+Logistic_regression: An accuracy of 32 %
+Neural Network Classifier: An accuracy of 35%
 - the difference between using a simple logistic regression classifier and a neural netowork classifier with numpy 
 - the difference the two datasets
